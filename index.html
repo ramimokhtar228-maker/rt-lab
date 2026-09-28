@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="theme-color" content="#8B0000"/>
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+<title>RT LAB · بوابة معامل رامي مختار</title>
+<link rel="manifest" href="manifest.webmanifest"/>
+<link rel="icon" type="image/png" sizes="192x192" href="icon-192.png"/>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap');
+*{box-sizing:border-box}
+body{font-family:'Cairo',sans-serif;margin:0;min-height:100vh;background:linear-gradient(165deg,#0f0a0a 0%,#1c0a0a 45%,#f5f5f4 45%);color:#1c1917}
+.wrap{max-width:960px;margin:0 auto;padding:28px 16px 48px}
+.brand{display:flex;align-items:center;gap:14px;margin-bottom:28px}
+.logo{width:64px;height:64px;border-radius:18px;background:linear-gradient(135deg,#8B0000,#c41e3a);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:22px;box-shadow:0 10px 30px rgba(139,0,0,.35)}
+.brand h1{margin:0;color:#fff;font-size:28px}
+.brand p{margin:2px 0 0;color:#fca5a5;font-size:13px}
+.slogan{color:#93c5fd;font-size:12px;margin-top:4px}
+.grid{display:grid;grid-template-columns:1fr;gap:16px}
+@media(min-width:720px){.grid{grid-template-columns:1fr 1fr 1fr}}
+.card{background:#fff;border-radius:22px;padding:22px 18px;text-align:center;text-decoration:none;color:inherit;border:1px solid #e7e5e4;box-shadow:0 8px 28px rgba(0,0,0,.08);transition:.2s;display:block}
+.card:hover{transform:translateY(-4px);box-shadow:0 14px 36px rgba(139,0,0,.15);border-color:#fecaca}
+.icon{width:72px;height:72px;border-radius:20px;margin:0 auto 14px;display:flex;align-items:center;justify-content:center;font-size:34px}
+.card h2{margin:0 0 8px;font-size:18px}
+.card p{margin:0;font-size:13px;color:#78716c;line-height:1.5}
+.card .go{margin-top:14px;display:inline-block;background:#8B0000;color:#fff;padding:10px 18px;border-radius:12px;font-weight:700;font-size:13px}
+.note{margin-top:28px;background:#fff;border-radius:16px;padding:16px;border:1px solid #e7e5e4;font-size:13px;color:#57534e;line-height:1.7}
+.note b{color:#8B0000}
+.full{display:block;text-align:center;margin-top:16px;color:#44403c;font-size:13px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="brand">
+    <div class="logo">RT</div>
+    <div>
+      <h1>RT LAB</h1>
+      <p>معامل رامي مختار</p>
+      <div class="slogan">✦ التشخيص الصحيح يبدأ معنا ✦</div>
+    </div>
+  </div>
+
+  <div class="grid">
+    <a class="card" href="booking.html">
+      <div class="icon" style="background:#fef2f2">📋</div>
+      <h2>برنامج الحجز</h2>
+      <p>حجز المواعيد · الباقات · كروت الولاء · بوابة المريض</p>
+      <span class="go">دخول الحجز ←</span>
+    </a>
+    <a class="card" href="lab.html">
+      <div class="icon" style="background:#ecfdf5">🧪</div>
+      <h2>برنامج النتائج</h2>
+      <p>الطلبات · إدخال النتائج · الكتالوج · الشغل اليومي</p>
+      <span class="go">دخول النتائج ←</span>
+    </a>
+    <a class="card" href="admin.html">
+      <div class="icon" style="background:#eff6ff">📊</div>
+      <h2>برنامج الإدارة</h2>
+      <p>الماليات · الحسابات · الموارد البشرية · المستلزمات</p>
+      <span class="go">دخول الإدارة ←</span>
+    </a>
+  </div>
+
+  <div class="note">
+    <b>البيانات موحّدة بين البرامج الثلاثة.</b><br/>
+    حجز من برنامج الحجز يظهر في النتائج بعد التسعير والتأكيد، ويظهر في حسابات الإدارة.<br/>
+    فعّل <b>السحابة</b> من أي برنامج مرة واحدة على كل جهاز حتى تتزامن الموبايل واللابتوب.
+  </div>
+  <a class="full" href="rt-app.html">فتح النظام الكامل (كل الشاشات معاً)</a>
+</div>
+</body>
+</html>
